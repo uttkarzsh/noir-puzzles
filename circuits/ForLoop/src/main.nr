@@ -5,8 +5,13 @@
 
 // See here: https://noir-lang.org/language_concepts/control_flow/#loops
 
-fn main() -> pub Field {
+fn main(arr: [Field; 3]) -> pub Field {
   // your code here
+  let mut sum: Field = 0;
+  for i in 0..3 {
+    sum += arr[i];
+  }
+  sum
 }
 
 ////////////////////
