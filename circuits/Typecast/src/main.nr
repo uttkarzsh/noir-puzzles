@@ -5,6 +5,13 @@
 
 fn main(x : Field, y : pub Field) -> pub bool {
   // your code here
+  let x_u32: u32 = x as u32;
+  let y_u32: u32 = y as u32;
+  if(x_u32>y_u32){
+    true
+  } else {
+    false
+  }
 }
 
 ////////////////////

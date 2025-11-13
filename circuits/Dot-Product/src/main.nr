@@ -7,6 +7,11 @@
 
 fn main(x : [ Field; 4 ], y : [ Field; 4 ]) -> pub Field {
   // your code here
+  let mut dot_product: Field = 0;
+  for i in 0..4{
+    dot_product += x[i]*y[i];
+  }
+  dot_product
 }
 
 ////////////////////

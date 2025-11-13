@@ -5,6 +5,8 @@
 
 fn main(x : Field, y : Field) -> pub Field {
   // your code here
+  let result: Field = x.pow_32(y);
+  result
 }
 
 ////////////////////
