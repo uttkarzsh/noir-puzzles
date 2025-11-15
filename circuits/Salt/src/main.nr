@@ -9,6 +9,8 @@
 
 fn main(a : Field, salt : Field) -> pub Field {
   // your code here
+  let hash: Field = mimc::mimc_bn254([a, salt]);
+  hash
 }
 
 ////////////////////

@@ -4,6 +4,7 @@
 
 fn main(side1 : Field, side2 : pub Field) -> pub Field {
   // your code here
+  side1 + side2 - 1
 }
 
 ////////////////////
